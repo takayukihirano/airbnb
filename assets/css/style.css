@@ -1,0 +1,222 @@
+header {
+    background: url(../images/background.jpg) center / cover;
+    width: 100%;
+    height: 50rem;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 25px;
+    /* margin: 25px; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    transition: 200ms ease-in-out;
+  }
+
+#menu li{
+    margin-left: 2rem;
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+}
+
+/* Navbar Responsive */
+.nav-responsive {
+    display: block;
+    background: #fff;
+    color: #484848;
+    height: -100%;
+    z-index: 1;
+    transition: 200ms ease-in-out;
+}
+
+.toggle-icon--active {
+    color: #484848;
+}
+.toggled {
+    display: flex;
+}
+
+/* ホバー時のアンダーライン */
+
+#menu li::after {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background:whitesmoke;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+    margin-top: 2rem;
+  }
+
+#menu li:hover::after {
+    transform: scale(1, 1);
+  }
+
+.header-container{
+    background-color: #fff;
+    width: 28rem;
+    height: 30rem;
+    margin-top: 3.2rem;
+    margin-left: 4rem;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.input{
+    padding:10px;
+    font-size:1.3em;
+    font-family:Arial, sans-serif;
+    border:solid 1px #ccc;
+    margin:0 0 20px;
+    width:22rem;
+}
+
+.check{
+    display: flex;
+}
+
+.contents{
+    padding-top: 2rem;
+    margin-left: 2rem;
+}
+
+h1{
+    font-size: 1.9rem;
+}
+
+.item{
+    margin-top: 2rem;
+}
+
+.button{
+    margin-right: 2rem;
+    float: right;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #FF5A5F;/*ボタン色*/
+    color: #FFF;
+    border-radius: 3px;
+  }
+
+  .search{
+      height: 10rem;
+      margin-top: 3rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+  }
+
+  .search h2{
+      margin-left: 1rem;
+      font-size: 1.3rem;
+  }
+
+  .search-cards{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1.5rem;
+  }
+
+  .card{
+      display: flex;
+      width: 26rem;
+      height: 5rem;
+      box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+      border-radius: 10px;
+  }
+
+  .card-image{
+      width: 8rem;
+      height: 5rem;
+      border-radius: 10px 0px 0px 10px / 10px 0px 0px 10px;
+  }
+
+  .card h3{
+      margin-left: 2rem;
+      margin-top: auto;
+      margin-bottom: auto;
+  }
+
+  /* Airbnbアドベンチャーここから */
+  .adventure{
+    height: 40rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .adventure h2{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .adventure p{
+      margin-left: 1rem;
+      margin-top: 1rem;
+  }
+
+  .adventure-cards{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1.5rem;
+  }
+
+  .adventure-card{
+      width: 15.3rem;
+      height: 28rem;
+      display: block;
+  }
+
+  .adventure-card img{
+      height: 20rem;
+      border-radius: 10px;
+  }
+
+  .adventure-card h4 {
+      margin-top: 0.8rem;
+      font-size: 0.4rem;
+  }
+
+  .adventure-card h5{
+      margin-top: 0.4rem;
+      font-size: 0.9rem;
+      font-weight: 100;
+  }
+
+  .adventure-card p{
+      margin-left: 0px!important;
+      margin-top: 0.4rem!important;
+      font-size: 0.9rem;
+  }
+
+  .adventure-btn {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
+  .adventure-btn:hover {
+    background: #67c5ff;
+    color: white;
+  }

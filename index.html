@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="toggle">
+                <a class="toggle-icon" href="#home">HOME</a>
+            </div>
+            <ul id="menu">
+                <li><a href="#language">日本語(JP)</a></li>
+                <li><a href="#currency">JPY</a></li>
+                <li><a href="">お部屋を掲載</a></li>
+                <li><a href="">体験をホストする</a></li>
+                <li><a href="">ヘルプ</a></li>
+                <li><a href="">登録する</a></li>
+                <li><a href="">ログイン</a></li>
+            </ul>
+        </nav>
+        <div class="header-container">
+            <div class="contents">
+                <h1>ユニークな宿泊先や体験を<br>予約しましょう。</h1>
+                <div class="item">
+                    <label>エリア</label><br>
+                    <input type="text" class="input" placeholder="どこでも">
+                </div>
+                <div class="item check">
+                    <div class="check-in">
+                        <label>チェックイン</label><br>
+                        <input type="date" min="">
+                    </div>
+                    <div class="check-out">
+                        <label>チェックアウト</label><br>
+                        <input type="date" min="">
+                    </div>
+                </div>
+                <div class="item">
+                    <label>ゲスト</label><br>
+                    <select class="input">
+                        <option value=”adults”>大人</option>
+                        <option value=”kids”>子ども</option>
+                        <option value=”babies”>乳幼児</option>
+                    </select>
+                </div>
+                <div class="item button">
+                    <a href="#" class="btn">探す</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="search">
+        <h2>Airbnbで探す</h2>
+        <div class="search-cards">
+            <div class="card">
+                <img src="assets/images/bedroom.jpg" alt="bedroom" class="card-image">
+                <h3>宿泊</h3>
+            </div>
+            <div class="card">
+                <img src="assets/images/experience.jpg" alt="experience" class="card-image">
+                <h3>体験</h3>
+            </div>
+            <div class="card">
+                <img src="assets/images/adventure.jpg" alt="adventure" class="card-image">
+                <h3>アドベンチャー</h3>
+            </div>
+        </div>
+    </section>
+    <section class="adventure">
+        <h2>Airbnbアドベンチャーで冒険に出よう</h2>
+        <p>現地のエキスパートが案内する数日間の旅。アクティビティ、食事、宿泊すべてが含<br>まれます。</p>
+        <div class="adventure-cards">
+            <div class="adventure-card">
+                <img src="assets/images/tanzania.jpg" alt="">
+                <h4>TANZANIA, UNITED REPBULIC OF</h4>
+                <h5>The Family Friednly Safari</h5>
+                <p>1人￥ 297,832から・6日</p>
+            </div>
+            <div class="adventure-card">
+                <img src="assets/images/islandhopping.jpg" alt="">
+                <h4>エクアドル</h4>
+                <h5>4 Day Isand Hopping Budget</h5>
+                <p>1人￥ 123,628から・4日</p>
+            </div>
+            <div class="adventure-card">
+                <img src="assets/images/indonesia.jpg" alt="">
+                <h4>インドネシア</h4>
+                <h5>美しき島、バリ。心を清めるジャングルの旅</h5>
+                <p>1人￥ 15,498から・2日</p>
+                <p>★ 4.99(167)</p>
+            </div>
+            <div class="adventure-card fourth-card">
+                <img src="assets/images/sweden.jpg" alt="">
+                <h4>スウェーデン</h4>
+                <h5>カヤックでスウェーデンの島を回る体験</h5>
+                <p>1人￥ 109,883から・5日</p>
+                <p>★ 5.0(2)</p>
+
+            </div>
+            <div class="adventure-card fifth-card">
+                <img src="assets/images/alaska.jpg" alt="">
+                <h4>アメリカ</h4>
+                <h5>アラスカの大自然で犬ぞり体験</h5>
+                <p>1人￥ 207,921から・3日</p>
+                <p>★ 5.0(2)</p>
+            </div>
+        </div>
+        <a href="" class="adventure-btn">すべてのアドベンチャーを表示する ></a>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

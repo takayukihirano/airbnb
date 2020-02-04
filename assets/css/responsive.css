@@ -1,0 +1,107 @@
+/* 最初のブレイクポイント */
+@media only screen and (max-width: 1298px){
+    .fifth-card{
+        display: none;
+    }
+
+    .card{
+        margin: 0 10px;
+    }
+
+    .adventure-card{
+        margin: 0 10px;
+    }
+}
+
+/* 中間ブレイクポイント */
+@media only screen and (max-width: 1127px){
+
+    #menu{
+        display: none;
+    }
+    #menu li{
+        width: 100%;
+        margin: 30px 0px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #484848;
+    }
+
+    #menu li a {
+        color: #484848;
+    }
+
+/* ハンバーガーメニュー */
+    #toggle{
+        display: block;
+        position: relative;
+        width: 100%;
+      }
+      #toggle a{
+        display: block;
+        position: relative;
+        padding: 12px 0 10px;
+        border-bottom: 1px solid #444;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+      }
+      #toggle:before{
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        background: #fff;
+      }
+      #toggle a:before, #toggle a:after{
+        display: block;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 20px;
+        height: 4px;
+        background: #222;
+      }
+      #toggle a:before{
+        margin-top: -6px;
+      }
+      #toggle a:after{
+        margin-top: 2px;
+      }
+
+    .search{
+        height: 20rem;
+    }
+    .card{
+        display: block;
+        margin: 0 10px;
+        height: 15rem;
+        box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+    }
+    .card h3{
+        margin-top: 5px;
+    }
+
+    .card-image{
+        width:100%;
+        height: auto;
+        border-radius: 10px 10px 0px 0px / 10px 10px 0px 0px;
+    }
+
+}
+
+/* 4枚目のアドベンチャーカードを消すブレイクポイント */
+@media only screen and (max-width: 987px){
+    .fourth-card{
+        display: none;
+    }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px){
+    
+}
