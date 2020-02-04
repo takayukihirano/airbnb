@@ -12,7 +12,7 @@ nav{
     padding: 25px;
     height: 66px;
     opacity: 1;
-    transition: height 1s ease;
+    transition: height 400ms;
     /* margin: 25px; */
 }
 
@@ -24,7 +24,7 @@ a {
 #menu{
     display: flex;
     list-style: none;
-    transition: 200ms ease;
+    /* transition: 200ms ease-in-out; */
   }
 
 #menu li{
@@ -41,6 +41,10 @@ a {
     color: #484848;
     height: 100%;
     z-index: 15;
+}
+
+.nav-white {
+    background: white;
 }
 
 .toggle-icon--active {
