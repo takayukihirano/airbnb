@@ -65,6 +65,7 @@ a {
     transform: scale(1, 1);
   }
 
+/* headerのなかにあるボックス */
 .header-container{
     background-color: #fff;
     width: 28rem;
@@ -114,15 +115,16 @@ h1{
     border-radius: 3px;
   }
 
+  /* searchここから */
   .search{
       height: 10rem;
       margin-top: 3rem;
-      margin-left: 4rem;
-      margin-right: 4rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
   }
 
   .search h2{
-      margin-left: 1rem;
+      margin-left: 0.5rem;
       font-size: 1.3rem;
   }
 
@@ -152,21 +154,64 @@ h1{
       margin-bottom: auto;
   }
 
+/* airbnb plusここから */
+    .airbnb-plus{
+    height: 25rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    }
+    .airbnb-plus h2{
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+    }
+    .airbnb-plus p{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    }
+    .plus{
+        position: relative;
+    }
+    .plus-btn{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        margin:0;
+        padding:0;
+        width: 100%;
+        max-width: 10rem;
+        padding: 15px 10px;
+        display: inline-block;
+        text-align: center;
+        color: black;
+        background-color: white;
+    }
+
+    .airbnb-plus img{
+    width:100%;
+    height: 20rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    }
+
   /* Airbnbアドベンチャーここから */
   .adventure{
     height: 40rem;
     margin-top: 3rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
   .adventure h2{
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     font-size: 1.3rem;
   }
 
   .adventure p{
-      margin-left: 1rem;
+      margin-left: 0.5rem;
       margin-top: 1rem;
   }
 

@@ -74,7 +74,7 @@
       }
 
     .search{
-        height: 20rem;
+        height: 18rem;
     }
     .card{
         display: block;
@@ -103,5 +103,10 @@
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px){
-    
+    header{
+        height:250px;
+    }
+    .header-container{
+
+    }
 }
